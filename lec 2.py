@@ -52,7 +52,7 @@ print(f'salry of {new_name} is {my_salary}')
 
 
 #with list method 
-
+# mutable changeable
 my_list =['one','two','three']
 number_list=[1,2,3,4,6,5,9,8,7]
 print(my_list+number_list[::-1])
@@ -79,7 +79,7 @@ print(store_list2['bumpers'])
 print(store_list2['bumpers'][1]) #dictionary with list using index searching from list 
 
 #tuples
-
+# immmuteable unchangeable
 t=(1,2,3,4,5,5,5,6,6)
 print(type(t))
 print(len(t))
